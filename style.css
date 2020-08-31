@@ -1,0 +1,86 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+
+h1,
+h2,
+h3,
+h4
+{
+text-align : center;
+}
+
+h1{
+  color : darkmagenta;
+  font-size : 85px;
+}
+
+p{
+  font-size : 24px;
+  font-style : sans-serif;
+}
+
+h2{
+  font-size : 40px;
+  color : darkorchid;
+}
+
+h3{
+font-size : 29px;
+}
+
+h4{
+  font-size : 27px;
+}
+
+section{
+  margin: 40px;
+  background-color : lavender;
+  padding : 8px;
+}
+
+header{
+  background-color : lavender;
+}
+
+
+footer{
+  color : white;
+  margin: 10px;
+  padding: 5px;
+  background-color : black;
+  text-align : center;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+float : left;
+  color: lavender;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color : lavender;
+  color: black;
+}
+
+.bookMagic {
+  text-align: center;
+  background-color : white;
+}
+
