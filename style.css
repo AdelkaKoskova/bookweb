@@ -93,5 +93,16 @@ float : left;
   text-align : center;
 }
 
+.top a {
+  text-align : center;
+  font-size : 18px;
+  color : lavender;
+  background-color : black;
+}
+
+.top a:hover {
+  color : black;
+  background-color : lavender;
+}
 
 
