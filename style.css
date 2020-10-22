@@ -93,12 +93,22 @@ float : left;
   text-align : center;
 }
 
-.top a {
-  text-align : center;
-  font-size : 18px;
-  color : lavender;
+.top {
   background-color : black;
+  overflow : hidden;
 }
+
+.top a {
+  float : center;
+    color: lavender;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+
+  
 
 .top a:hover {
   color : black;
