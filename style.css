@@ -84,12 +84,12 @@ float : left;
   background-color : white;
 }
 
-.theRainWildChronicles, .Snuff, .GNSFRG, .Paddington {
+.theRainWildChronicles, .Snuff, .GNSFRG, .Paddington, .hamlet {
   background-color: rgb(213, 175, 218);
   padding : 5px;
 }
 
-.ATOMpicture, .Snuff, .GNSFRG, .Paddington {
+.ATOMpicture, .Snuff, .GNSFRG, .Paddington, .hamlet {
   text-align : center;
 }
 
