@@ -8,8 +8,8 @@
      <title> Bookweb </title>
 
      <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel = "stylesheet" href = "style.css">
   </head>
   
@@ -24,21 +24,90 @@
 
       </header>
 
-<div class="topnav">
-  <a href="#welcome">Welcome</a>
- <a href = "#fantasy">Fantasy</a>
-  <a href ="#girlsNovel">Girl's Novel</a>
-  <a href = "#sci-fi">Sci-fi</a>
-  <a href = "#novel">Novel</a>
-  <a href = "#fairyTales">Fairy Tales</a>
-  <a href = "#detectiveStories">Detective Stories</a>
-  <a href = "#drama">Drama</a>
-  <a href = "#math">Math's books</a>
-  <a href = "#theLatest">The Latest</a>
-</div>
 
 
-
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#welcome">Welcome</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#fantasy" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Fantasy
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#theRainWildChronicles">The Rain Wild Chronicles by Robin Hobb</a></li>
+            <li><a class="dropdown-item" href="#ATOM">A tale o magic</a></li>
+            <li><a class="dropdown-item" href="#Snuff">Snuff</a></li>
+            <li><a class="dropdown-item" href="#TGOIAS">The girl of ink and stars</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#girlsNovel" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Girl's Novel
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#moreOfMe">More of Me</a></li>
+            <li><a class="dropdown-item" href="#SophiesWorld">Sophie's World</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#sci-fi" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Sci-fi
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#blackfishCity">Blackfish City</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#novel" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Novel
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#winstonSmith">1984</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#fairyTales" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Fairy Tales
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#GNSFRG">Good night stories for rebel girls</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#detectiveStories" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Detective Stories
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#Paddington">4.50 from Paddington</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#drama" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Drama
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#hamlet">Hamlet</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#math" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Math's books
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#loveAndMath">Love and math</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#theLatest">The latest</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
 
 <section class = "bookMagic">
@@ -118,7 +187,7 @@
 
   <p><h2>Girl's Novel</h2></p>
 
-
+<section class = "moreOfMe" id = "moreOfMe">
   <p><h3>More of Me</h3></p>
 
 <p>More of me is a book by Kathryn Evans. I don’t really know what genre it is. On the internet you can find a lot of opinions about what genre it is but they’re all different. I would say it’s a girl’s novel. It was published in 2016, so it’s quite a new book. Kathryn Evans wrote eight other books.</p>
@@ -126,6 +195,7 @@
 <p>The main character of this book is Teva. In the book are twelve Teva’s but the main character is the oldest sixteen years old. How can it happen that there are twelve Teva’s? It’s simple, nearly every birthday the oldest Teva is something like duplicated. That sounds crazy, doesn’t it? Because it’s weird to have twelve versions of only one person, public life is always living the newest Teva the duplicatel. She goes to school, meets up with friends, has a boyfriend but the other Teva’s are stuck in home and can’t do anything. The Teva in More of me doesn’t want to live for a one year and then be stuck home forever. She wants to do something with it. But can someone help her?</p>
 
 <p>What a nonsense I thought in the first place. The first fifty pages aren’t written good. You can’t understand the story and it’s hard to get the story line. The next part of the book is better - you begin to understand it more and more. The style of story-telling is the same in a classic girl’s novel but there is add the weird thing with duplicating. I think the idea with duplicating Teva like greenfly is very good. I would say that all in the book is quite good but quite a nonsense too.</p>
+</section>
 
 <section class = "SophiesWorld" id = "SophiesWorld">
 <p><h3>Sophie's World</h3></p>
@@ -141,7 +211,7 @@
   <p><h2>Sci-fi</h2></p>
 
 
-
+<section class = "blackfishCity" id = "blackfishCity">
   <p><h3>Blackfish City</h3></p>
 
   <p>Blackfish is post-climate-colapse sci-fi book by Sam J. Miller. It was nominated for the Nebul price. This is the second book by Sam J. Miller.</p>
@@ -149,7 +219,7 @@
   <p>The plot is happening in Qaanaaq - one of the post apocalyptic cities. There are a few people that are telling the story of the book. One of them is Ankit, thirty-years-old lady who live alone. She is an orphan and doesn't know anything about her history. She's got only brother but she saw him oncea live. Kaev - Ankit's borther - is some kind of wrestler. One day it starts to happen weird things in the city Qaanaaq. It seems like everything is in circle and it's going back to Ankit and Kaev. What will happen to them? And is the mistical woman with killer whale real?</p>
 
   <p>At the beginning I thaught this is really silly and boring book but I read on and it was still more and more interesting. The last few pages I read at once. The story is very complicated and there are many story lines that are intertwined. On the internet is this book rated like for adults but I think it is intereatinf reading also for teenagers. I really enjoyed it.</p>
-  
+  </section>
   </section>
 
   <section class ="novel" id = "novel"
@@ -244,6 +314,6 @@
    </footer>
  
  
- 
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   </body>
 </html>
